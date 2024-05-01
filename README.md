@@ -16,7 +16,6 @@ The application consists of 6 different services
 
 ## <a name="application-architecture"></a>Application Architecture
 
-![screenshot!](images/image.png)
 
 
 ## <a name="project-overview"></a>Project Overview
@@ -40,19 +39,15 @@ The application consists of 6 different services
 
 * **To create a new customer- http://localhost:8080/v1/api/customer/create** :
 
-     ![screenshot!](images/create.png)
  
 * **To create a new order- http://localhost:8080/v1/api/order/create** :
  
-    ![screenshot!](images/order.png)
  
 * **To get the token for secure resource- http://localhost:8080/v1/api/secure/oauth/token** :
  
-    ![screenshot!](images/get_token.png)
  
 * **The above end point will produce response like below** :
  
-    ![screenshot!](images/token_response.png)
  
 
 * **To access secure resource or to delete all customers- http://localhost:8080/v1/api/customer/delete/all** :
